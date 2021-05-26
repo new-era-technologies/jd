@@ -1,0 +1,18 @@
+.header {
+    &__title {
+        margin: 0;
+        padding-top: 40px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: left;
+        color: #4F586B;
+    }
+}
+
+.swiper-pagination {
+    bottom: 0 !important;
+    left: -42% !important;
+}

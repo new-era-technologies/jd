@@ -1,0 +1,31 @@
+@import '../../assets/fonts/fonts.css';
+
+.header-slide {
+    display: flex;
+    flex-direction: column;
+    &__img {
+        width: 64px;
+        height: 64px;
+        margin-top: 25px;
+    }
+    &__title,
+    &__text {
+        margin-top: 24px;
+        margin-bottom: 8px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #4F586B;
+        text-align: left;
+    }
+    &__text {
+        width: 304px;
+        margin-top: 0;
+        margin-bottom: 24px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
